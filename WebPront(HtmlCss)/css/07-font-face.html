@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@font-face</title>
+    <style>
+        @import url('http://fonts.googleapis.com/earlyaccess/notosanskr.css');
+        @import url('https://fonts.googleapis.com/css?family=Acme|Courgette|Exo:200');
+        /* 
+            폰트묶음의 이름(내가정한거) : NGothic
+        */
+        @font-face{
+        font-family: NGothic;
+            src:url(fonts/NanumGothic.eot);
+            src:url(fonts/NanumGothic.eot?#iefix) format('embedded-opentype'),
+                url(fonts/NanumGothic.woff) format('woff'),
+                url(fonts/NanumGothic.ttf) format('truetype')
+        }
+        .nanum{
+            font-family: ngothic,sans-serif;
+        }
+        body{
+            font-size:20px;
+        }
+        h1{
+            font-family: 'Courgette', cursive;
+        }
+        .lead{
+            font-family: 'Exo', sans-serif;
+        }
+        .lead2{
+            font-family: 'Acme',sans-serif;
+        }
+        .noto1{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 100;
+        }
+        .noto2{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 200;
+        }
+        .noto3{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 300;
+        }
+        .noto4{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 400;
+        }
+        .noto5{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 500;
+        }
+        .noto6{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 600;
+        }
+        .noto7{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+        }
+        .noto8{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 800;
+        }
+        .noto9{
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <h1>@font-face</h1>
+    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, totam eos dolores earum nisi omnis exercitationem repellat unde voluptatum. Repellat nobis consequatur obcaecati temporibus rem explicabo voluptatum quasi soluta laboriosam?</p>
+    <p class="lead2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, totam eos dolores earum nisi omnis exercitationem repellat unde voluptatum. Repellat nobis consequatur obcaecati temporibus rem explicabo voluptatum quasi soluta laboriosam?</p>
+    <p class="nanum">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, totam eos dolores earum nisi omnis exercitationem repellat unde voluptatum. Repellat nobis consequatur obcaecati temporibus rem explicabo voluptatum quasi soluta laboriosam?</p>
+    <p>나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원
+        본고딕은 Adobe에서 제공. 구글에서 Noto Sans라는 이름으로 같은 서체 지원. sans-serif 체로 다양한 두께 지원.
+        다음의 서체 링크에서 http: 프로토콜을 입력해야 정상적으로 활용 가능.</p>
+    <p class="nanum">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원
+        본고딕은 Adobe에서 제공. 구글에서 Noto Sans라는 이름으로 같은 서체 지원. sans-serif 체로 다양한 두께 지원.
+        다음의 서체 링크에서 http: 프로토콜을 입력해야 정상적으로 활용 가능.</p>
+    <p class="noto1">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto2">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto3">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto4">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto5">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto6">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto7">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto8">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+    <p class="noto9">나눔고딕체는 serif, sans-serif, cursive, monospace 모두 지원</p>
+</body>
+</html>
